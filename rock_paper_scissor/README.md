@@ -7,3 +7,14 @@ a piece of paper (palm facing downward), or a pair of scissors (two fingers exte
 * Rock smashes scissors.
 * Paper covers rock.
 * Scissors cut paper.
+## program Flow
+First, we are importing the random module to enable us randomize computer choices:
+```python
+import random
+```
+For, the user input, we create a sequence(in this case a list) to store the possible choices that the user
+can pick from. Taking an input from the user is straight forward suing the ```input()``` functions as follows
+
+```python
+user_choices = ["rock", "paper", "scissor"]
+user_input = input("Please select your choices (rock, paper and scissor):")
