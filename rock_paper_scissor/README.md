@@ -18,8 +18,9 @@ can pick from. Taking an input from the user is straight forward suing the ```in
 ```python
 user_choices = ["rock", "paper", "scissor"]
 user_input = input("Please select your choices (rock, paper and scissor):")
+```
 
-Taking on the computer choices. ```choice()``` function in the random module returns a random element from the given sequence
+Taking on the computer choices. ``choice()`` function in the random module returns a random element from the given sequence
 Therefore:
 
 ```
@@ -32,3 +33,4 @@ get to know the choices every time the game is playe. we use the ```format()``` 
 
 ```
 print("Your choice is: {} and the computer choice is : {}".format(user_input, computer_choice))
+```
